@@ -49,6 +49,7 @@ int main()
       sum = sum - arr[i] + arr[i + k];
 
       //store the index into result vector; //require only if asked in the questions
+      //NOTE: only one window is having max sum
       if(sum > maxSum)
       {
            maxSum= sum;
