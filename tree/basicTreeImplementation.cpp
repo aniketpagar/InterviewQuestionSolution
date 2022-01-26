@@ -1,5 +1,16 @@
+/*
+   create new tree
+   insert new element functionality
+   display inorder, preorder, postOrder functionality
+   find the element inside the tree
+   cal height of the tree
+   cal width of the tree 
+*/
+
+
 #include "iostream"
 using namespace std;
+#include "queue"
 
 //Node data structure
 typedef struct Node
@@ -80,7 +91,7 @@ bool find_node(int data, Node * temp)
     }
 }
 //function to calculate height of the tree;
-//NOTE : if tree only has root element then height of the should be Zero
+//NOTE : if tree only has root element then height of the tree should be Zero
 int getMaxHeight(Node* temp)
 {
     if(temp != NULL)
@@ -88,6 +99,37 @@ int getMaxHeight(Node* temp)
         return max(getMaxHeight(temp->right), getMaxHeight(temp->left)) + 1;
     }
     return -1;
+}
+
+
+//function to calculate width of the tree
+//for concept 
+//check below video link
+//https://www.youtube.com/watch?v=le-ZZSQRebw
+int getMaxWidthOfTheTree(Node *temp)
+{
+    if(temp == NULL) return -1;
+    int result = 1;//if root is present i.e min width of the tree should be 1;
+    queue<pair<Node*, int>> q1;
+    q1.push({temp,0});
+    while(!q1.empty())
+    {   //calculate the width of current level & stored inside the result
+        int start = q1.front().second;
+        int end = q1.back().second;
+        result = max(result, end - start +1);//calculate the result at every level
+        int nodeInCurrentlevel = q1.size();
+
+        //this loop is just to add all nodes of next level into the queue
+        for(int i =0; i<nodeInCurrentlevel; i++)
+        {
+            pair<Node*, int> p1 = q1.front();
+            q1.pop();
+            int idx = p1.second - start;//current node idx
+            if(p1.first->left != NULL) q1.push({p1.first->left, 2*idx});
+            if(p1.first->right != NULL) q1.push({p1.first->right, 2*idx +1});
+        }
+    }
+    return result;
 }
 
 
@@ -122,4 +164,7 @@ int main()
 
     //find the height of the tree
     cout<<"height of the tree :"<<getMaxHeight(root)<<endl;
+
+    //find the max width of the tree
+    cout<<"width of the tree :"<<getMaxWidthOfTheTree(root)<<endl;
 }
