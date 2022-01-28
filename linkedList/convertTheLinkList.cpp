@@ -8,6 +8,22 @@ Ans Approach
 3) Now merge 1st and 2nd half again as per the question.
 */
 
+/*
+OUTPUT ->
+Input list
+1    2    3    4    5    6
+--------------------------------------
+First half list :
+1    2    3
+--------------------------------------
+Second half list :
+6    5    4
+--------------------------------------
+Answer :
+1    6    2    5    3    4
+--------------------------------------
+*/
+
 #include "iostream"
 using namespace std;
 struct Node
