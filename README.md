@@ -6,7 +6,7 @@ This repository contains solutions to standard questions in C and C++.
 
 ## 1_maths
 - [I_algorithms/1_maths/factors_of_num.cpp](I_algorithms/1_maths/factors_of_num.cpp)
-- [gcd_lcm_of_two_nums.cpp](gcd_lcm_of_two_nums.cpp)
+- [gcd_lcm_of_two_nums.cpp](I_algorithms/1_maths/gcd_lcm_of_two_nums.cpp)
 - [is_prime](is_prime)
 - [print_prime_numbers](print_prime_numbers)
 - [sqrt_of_num](sqrt_of_num)
