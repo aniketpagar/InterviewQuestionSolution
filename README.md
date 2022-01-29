@@ -5,13 +5,23 @@ This repository contains solutions to standard questions in C and C++.
 # I_algorithms
 
 ## 1_maths
-- [I_algorithms/1_maths/factors_of_num.cpp](I_algorithms/1_maths/factors_of_num.cpp)
+- [factors_of_num](I_algorithms/1_maths/factors_of_num.cpp)
 - [gcd_lcm_of_two_nums.cpp](I_algorithms/1_maths/gcd_lcm_of_two_nums.cpp)
-- [is_prime](is_prime)
-- [print_prime_numbers](print_prime_numbers)
-- [sqrt_of_num](sqrt_of_num)
+- [is_prime](I_algorithms/1_maths/is_prime.cpp)
+- [print_prime_numbers](I_algorithms/1_maths/print_prime_numbers.cpp)
+- [sqrt_of_num](I_algorithms/1_maths/sqrt_of_num.cpp)
 
 ## 2_binary_search
+- [binary_search.cpp]
+- [order_agnostic_search.cpp]
+- [ceiling_of_number.cpp]
+- [floor_of_number.cpp]
+- [find_first_last_pos_sorted.cpp]
+- [find_in_mountain_array.cpp]
+- [peak_index_mountain_array.cpp]
+- [find_pos_of_ele_infinite_arr.cpp]
+- [search_in_rotated_sorted_arr.cpp]
+
 ## 3_cyclic sort
 ## 4_sorting
 ## 5_recursion
