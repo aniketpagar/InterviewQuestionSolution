@@ -70,6 +70,7 @@ int main()
     find_second_largest(root);
 }
 /*
+Output : 
 insert : 60
  insert : 50
  insert : 55
