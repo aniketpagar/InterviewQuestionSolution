@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_largest_power_of_2.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Find the largest power of 2 (most significant bit in binary form),
 which is less than or equal to the given number N.

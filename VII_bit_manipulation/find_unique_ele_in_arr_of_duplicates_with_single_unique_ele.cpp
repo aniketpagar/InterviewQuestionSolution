@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_unique_ele_in_arr_of_duplicates_with_single_unique_ele.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Program to get the unique element in the
 array of all duplicate elements except one unique single element.

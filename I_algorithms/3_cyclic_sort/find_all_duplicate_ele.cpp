@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_all_duplicate_ele.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 https://leetcode.com/problems/find-all-duplicates-in-an-array/
 

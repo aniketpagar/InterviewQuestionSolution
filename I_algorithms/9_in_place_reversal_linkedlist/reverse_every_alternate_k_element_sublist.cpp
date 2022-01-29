@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: reverse_every_alternate_k_element_sublist.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given the head of a LinkedList and a number ‘k’, reverse every alternating ‘k’ sized
 sub-list starting from the head.

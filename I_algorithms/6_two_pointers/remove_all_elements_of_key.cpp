@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: remove_all_elements_of_key.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Unsorted array of numbers is given and a target ‘key’, remove all instances of ‘key’
 in-place and return the new length of the array.

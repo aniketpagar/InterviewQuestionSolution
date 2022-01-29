@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: palindrome_number.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Program to check if a given number is palindrome or not.
 

@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: is_power_of_2.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Check if a given number is a power of 2. On success return True(1) else, return False(-1)
 Input: 4

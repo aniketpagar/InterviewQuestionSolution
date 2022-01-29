@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: count_leaf_various_degree_nodes_bst.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Tree (BST).
 Find the count of leaf nodes, degree(1) nodes, degree(2) nodes.

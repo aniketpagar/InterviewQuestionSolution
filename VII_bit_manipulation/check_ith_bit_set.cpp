@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: check_ith_bit_set.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Check if the ith bit is set in the binary form of the given number.
 Input: N = 4 (0100), i = 0

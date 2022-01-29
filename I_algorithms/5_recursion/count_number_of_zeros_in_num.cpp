@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: count_number_of_zeros_in_num.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Program to count the number of zeros in the given number.
 

@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: skip_a_char_string.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given a string. Write a program to remove all the occurrences of a character
 in the string.

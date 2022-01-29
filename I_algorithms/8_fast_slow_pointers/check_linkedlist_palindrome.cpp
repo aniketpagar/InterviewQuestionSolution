@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: check_linkedlist_palindrome.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given the head of a Singly LinkedList, write a method to check if the LinkedList is
 a palindrome or not.

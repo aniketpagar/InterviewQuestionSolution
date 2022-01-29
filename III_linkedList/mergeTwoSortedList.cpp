@@ -75,7 +75,7 @@ int main()
 }
 
 /*
-Output - 
+Output -
 
 sorted List1
    1   3   5

@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: search_bst.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Tree (BST).
 Search particular node in the BST, if present return its address,

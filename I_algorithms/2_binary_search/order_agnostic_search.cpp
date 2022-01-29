@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: order_agnostic_search.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Algorithm. It can be applied only when the array is SORTED.
 Here we will see logic for order agnostic binary search.

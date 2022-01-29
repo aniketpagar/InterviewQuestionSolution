@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: remove_all_duplicates.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given an array of sorted numbers, remove all duplicates from it.
 After removing the duplicates in-place return the new length of the array.

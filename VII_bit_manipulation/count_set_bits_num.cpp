@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: count_set_bits_num.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Count the number of ones in the binary representation of the given number.
 Input: 4 (0100)

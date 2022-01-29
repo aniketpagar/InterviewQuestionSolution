@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: count_nodes_bst.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Tree (BST).
 Find the number of nodes in the tree.

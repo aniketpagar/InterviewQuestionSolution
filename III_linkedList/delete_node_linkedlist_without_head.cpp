@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: delete_node_linkedlist_without_head.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Delete a Node from linked list without head pointer.
 No head reference is given to you. It is guaranteed that the

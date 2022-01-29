@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: happy_number.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Any number will be called a happy number if, after repeatedly replacing it with a
 number equal to the sum of the square of all of its digits, leads us to number ‘1’.

@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: stack_using_array.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Implementation of stack using array physical data structure.
 

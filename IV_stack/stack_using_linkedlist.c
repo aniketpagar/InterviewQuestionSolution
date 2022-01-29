@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: stack_using_linkedlist.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Implementation of stack using linked list physical data structure.
 

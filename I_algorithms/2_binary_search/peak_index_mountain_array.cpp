@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: peak_index_mountain_array.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 https://leetcode.com/problems/peak-index-in-a-mountain-array/
 

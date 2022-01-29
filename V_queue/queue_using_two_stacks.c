@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: queue_using_two_stacks.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Implement queue using two stacks. IMPLEMENTATION NOT WORKING.
 

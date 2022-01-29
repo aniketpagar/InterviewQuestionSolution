@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_pos_of_ele_infinite_arr.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Find the position of element in a sorted array of
 Infinite numbers.

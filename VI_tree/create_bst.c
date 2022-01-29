@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: create_bst.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Tree (BST).
 File contains the implementation of BST.

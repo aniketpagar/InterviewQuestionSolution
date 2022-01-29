@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: smallest_subarray_with_given_sum.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given an array of positive numbers and a positive number ‘S’,
 find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’.

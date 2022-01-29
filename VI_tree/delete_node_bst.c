@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: delete_node_bst.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Tree (BST).
 Delete the node if found in the BST. If node is not present, return NULL.

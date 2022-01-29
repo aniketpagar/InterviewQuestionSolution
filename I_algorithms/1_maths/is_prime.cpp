@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: is_prime.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Check if given number is prime or not. Number less than 1 is assumed as non prime number.
 

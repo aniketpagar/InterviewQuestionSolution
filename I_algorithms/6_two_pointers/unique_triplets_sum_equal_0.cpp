@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: unique_triplets_sum_equal_0.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given an array of unsorted numbers, find all unique triplets in it that add up to zero.
 

@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_single_duplicate_ele.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 https://leetcode.com/problems/find-the-duplicate-number/
 

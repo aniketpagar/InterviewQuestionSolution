@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_position_of_rightmost_set_bit.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Program to return position of first 1 from right to left, in binary representation
 of an Integer.

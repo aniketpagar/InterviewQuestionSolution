@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: substring_problems.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 For most substring problem, we are given a string and need to find a substring of
 it which satisfy some restrictions.

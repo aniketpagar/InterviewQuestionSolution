@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_all_subarray_avg.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
 

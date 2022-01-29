@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: generate_all_subsets_subsequences.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Input: array = {1, 2, 3}
 Output: // this space denotes null element.

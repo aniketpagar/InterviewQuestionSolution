@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: decimal_to_base_b_conversion.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Decimal to Base b conversion: (num) base (10) = (num2) base b.
 

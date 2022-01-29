@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: binary_search.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Algorithm. It can be applied only when the array is SORTED.
 */

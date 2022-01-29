@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: largest_substr_with_k_distinct_chars.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given a string, find the length of the longest substring in it
 with no more than K distinct characters.

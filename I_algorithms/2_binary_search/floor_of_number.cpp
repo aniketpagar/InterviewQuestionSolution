@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: floor_of_number.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Binary Search Algorithm. It can be applied only when the array is SORTED.
 Find the floor of a number in a given array. Target value entered is always correct value.

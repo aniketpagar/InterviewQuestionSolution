@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: base_b_to_decimal_conversion.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Convert the num with base b to decimal number.
 

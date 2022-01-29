@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: stack_using_array_simple.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Here instead of using structure to have arr, size and top, we will use
 global array, size and top as a single variables.
