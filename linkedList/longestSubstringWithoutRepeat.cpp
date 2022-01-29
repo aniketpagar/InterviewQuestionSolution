@@ -7,7 +7,7 @@ string longestSubstring(string temp)
 {
     if(temp.empty())return "";
 
-    vector<bool> v1(26,false);
+    vector<bool> v1(26,false);//initilise all with false, it works as a hash table
     int ans = 1;
     int i(0), j(1);
     v1[temp[i]]= true;
