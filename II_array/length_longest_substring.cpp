@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: length_longest_substring.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Length of the longest substring without repeating characters.
 Given a string str, find the length of the longest substring without repeating characters.

@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: rains_compute_amt_of_water_trapped.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Given n non-negative integers representing an elevation map
 where the width of each bar is 1, compute how much water it is

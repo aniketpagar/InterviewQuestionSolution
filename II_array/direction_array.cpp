@@ -1,5 +1,11 @@
-/*
+/****************************************************************************
+File name: direction_array.cpp
 
+Author: babajr
+*****************************************************************************/
+
+
+/*
 Get positions of neighbours. (r, c) is the center position
 and all other are its neighbours.
 

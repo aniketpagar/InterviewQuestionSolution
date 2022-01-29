@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: find_smallest_second_smallest_arr.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Program to get the smallest and second smallest element
 in the array.

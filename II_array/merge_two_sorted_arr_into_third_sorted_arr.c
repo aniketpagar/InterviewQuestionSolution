@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: merge_two_sorted_arr_into_third_sorted_arr.c
+
+Author: babajr
+*****************************************************************************/
+
+
 /* Merge two sorted array and create third array.
 Input:
 a1[] = {3,8,16,20,25}

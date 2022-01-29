@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: longest_band_whose_reordering_makes_longest_subarray.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Find the length of longest band. Longest band is a subsequence of array
 which can be reordered in a manner all elements appear consecutive.

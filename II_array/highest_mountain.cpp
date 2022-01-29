@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: highest_mountain.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Return the length of highest mountain. Input given is array of distinct integers.
 Mountain --> adjacent integers are strictly increasing until they become peak and then

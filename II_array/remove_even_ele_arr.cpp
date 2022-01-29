@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: remove_even_ele_arr.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Implement a function removeEven(int *Arr, int size) which takes an array arr and its
 size and removes all the even elements from a given array.

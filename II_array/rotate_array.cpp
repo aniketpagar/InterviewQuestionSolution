@@ -1,6 +1,12 @@
+/****************************************************************************
+File name: rotate_array.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 #include<bits/stdc++.h>
 using namespace std;
-
 
 
 void print(int arr[], int size)
