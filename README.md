@@ -5,7 +5,7 @@ This repository contains solutions to standard questions in C and C++.
 # I_algorithms
 
 ## 1_maths
-- [I_algorithms/1_maths/factors_of_num](factors_of_num)
+- [I_algorithms/1_maths/factors_of_num](I_algorithms/1_maths/factors_of_num)
 - [gcd_lcm_of_two_nums](gcd_lcm_of_two_nums)
 - [is_prime](is_prime)
 - [print_prime_numbers](print_prime_numbers)
