@@ -118,6 +118,7 @@ This repository contains solutions to standard interview questions in C and C++.
 - [leftAndRightViewOfBinaryTree](VI_tree/leftAndRightViewOfBinaryTree.cpp)
 - [search_bst](VI_tree/search_bst.c)
 - [delete_node_bst](VI_tree/delete_node_bst.c)
+- [second_largest_element_in_bst](VI_tree/find_second_largest_element.cpp)
 
 
 # VII_bit_manipulation
