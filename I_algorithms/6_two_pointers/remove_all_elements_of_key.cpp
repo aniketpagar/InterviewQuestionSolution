@@ -55,7 +55,7 @@ int remove_elements_equal_to_key(int arr[], int size, int key)
 int main(void)
 {
     int arr[] = {3, 2, 3, 6, 3, 10, 9, 3};
-    int k = 3;
+    int key = 3;
     int size = sizeof(arr) / sizeof(arr[0]);
 
     printf("Array new length: %d\n", remove_elements_equal_to_key(arr, size, key));
