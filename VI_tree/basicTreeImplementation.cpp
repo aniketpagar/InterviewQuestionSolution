@@ -51,7 +51,7 @@ void display_preorder(Node* temp)
 {
    if (temp != NULL) 
     { 
-        cout<<root->data<<endl;
+        cout<<"  "<<temp->data;
         display_preorder(temp->left); 
         display_preorder(temp->right); 
     } 
@@ -62,7 +62,7 @@ void display_inorder(Node* temp)
     if (temp != NULL) 
     { 
         display_inorder(temp->left); 
-        cout<<temp->data<<endl;
+        cout<<"  "<<temp->data;
         display_inorder(temp->right); 
     } 	
 }
@@ -73,7 +73,7 @@ void display_postorder(Node* temp)
     { 
         display_postorder(temp->left); 
         display_postorder(temp->right); 
-        cout<<root->data<<endl;
+        cout<<"  "<<temp->data;
     } 
 }
 
