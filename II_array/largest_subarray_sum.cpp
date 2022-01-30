@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: largest_subarray_sum.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Find the largest possible subarray sum in a given array.
 

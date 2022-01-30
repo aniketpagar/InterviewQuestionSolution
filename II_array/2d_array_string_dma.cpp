@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: 2d_array_string_dma.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Program to allocate memory dynamically to 2D array and store the strings as a row in
 that array.

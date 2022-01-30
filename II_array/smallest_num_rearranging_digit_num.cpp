@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: smallest_num_rearranging_digit_num.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Find the Smallest number (Not leading Zeros) which can be obtained by
 rearranging the digits of a given number.

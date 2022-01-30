@@ -1,10 +1,16 @@
+/****************************************************************************
+File name: maximumSumSubarray.cpp
+
+Author: babajr
+*****************************************************************************/
+
 
 /*
 Given an array of positive numbers and a positive number ‘k’, find the maximum sum of any contiguous subarray of size ‘k’.
 
 Example 1:
 
-Input: [2, 1, 5, 1, 3, 2], k=3 
+Input: [2, 1, 5, 1, 3, 2], k=3
 Output: 9
 Explanation: Subarray with maximum sum is [5, 1, 3].
 */
@@ -32,13 +38,13 @@ int main()
     return 0;// Invalid length of array received.
 
    int i = 0;
-  
+
   //first calculate the first k element sum then apply sliding window approach
    while(i != k)
    {
       sum = sum+arr[i];
       result.push_back(arr[i]);
-      i++; 
+      i++;
    }
    cout<<"first k element sum is : "<<sum<<endl;
    maxSum = sum;// lets consider first k element sum is a max sum
@@ -61,7 +67,7 @@ int main()
       }
   }
 
-//diplay the result; 
+//diplay the result;
 //in coding exam , we have to return these value
     cout<<"maxSum : "<<maxSum<<endl;
     cout<<"Subarray with maximum sum is [ ";

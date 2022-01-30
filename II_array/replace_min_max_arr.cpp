@@ -1,3 +1,10 @@
+/****************************************************************************
+File name: replace_min_max_arr.cpp
+
+Author: babajr
+*****************************************************************************/
+
+
 /*
 Replace all min elements in an array with max elements.
 Input: [1, 1, 3, 4, 5]

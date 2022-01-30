@@ -82,6 +82,39 @@ This repository contains solutions to standard interview questions in C and C++.
 
 
 # II_array
+- [2d_array_declaration](II_array/2d_array_declaration.c)
+- [2d_array_string_dma](II_array/2d_array_string_dma.cpp)
+- [array_products](II_array/array_products.cpp)
+- [count_increasing_subarrays](II_array/count_increasing_subarrays.cpp)
+- [direction_array](II_array/direction_array.cpp)
+- [find_smallest_second_smallest_arr](II_array/find_smallest_second_smallest_arr.cpp)
+- [get_max_value_last_occurance_2d_arr](II_array/get_max_value_last_occurance_2d_arr.cpp)
+- [greedy_robot](II_array/greedy_robot.cpp)
+- [grid_unique_paths](II_array/grid_unique_paths.cpp)
+- [highest_mountain](II_array/highest_mountain.cpp)
+- [largest_subarray_sum](II_array/largest_subarray_sum.cpp)
+- [left_rotate_arr_by_1](II_array/left_rotate_arr_by_1.cpp)
+- [length_longest_substring](II_array/length_longest_substring.cpp)
+- [longest_band_whose_reordering_makes_longest_subarray](II_array/longest_band_whose_reordering_makes_longest_subarray.cpp)
+- [maximumSumSubarray](II_array/maximumSumSubarray.cpp)
+- [merge_two_sorted_arr_into_third_sorted_arr](II_array/merge_two_sorted_arr_into_third_sorted_arr.c)
+- [merge_two_sorted_arrays](II_array/merge_two_sorted_arrays.cpp)
+- [most_frequent_num_arr](II_array/most_frequent_num_arr.cpp)
+- [move_zeros_to_end_of_arr](II_array/move_zeros_to_end_of_arr.cpp)
+- [rains_compute_amt_of_water_trapped](II_array/rains_compute_amt_of_water_trapped.cpp)
+- [read_print_2d_arr](II_array/read_print_2d_arr.cpp)
+- [remove_even_ele_arr](II_array/remove_even_ele_arr.cpp)
+- [replace_min_max_arr](II_array/replace_min_max_arr.cpp)
+- [rotate_array](II_array/rotate_array.cpp)
+- [search_ele_array](II_array/search_ele_array.cpp)
+- [smallest_num_rearranging_digit_num](II_array/smallest_num_rearranging_digit_num.cpp)
+- [sort_0_1_2s_arr_75](II_array/sort_0_1_2s_arr_75.cpp)
+- [sort_array_of_0s_1s](II_array/sort_array_of_0s_1s.cpp)
+- [swap_two_columns_2d_arr](II_array/swap_two_columns_2d_arr.cpp)
+- [housing](II_array/housing.cpp)
+- [insert_element_array](II_array/insert_element_array.cpp)
+- [is_array_sorted](II_array/is_array_sorted.cpp)
+- [largest_element_arr](II_array/largest_element_arr.cpp)
 
 
 # III_linkedList
@@ -145,3 +178,5 @@ This repository contains solutions to standard interview questions in C and C++.
 - [allTypeOfConstructor](VIII_cppConceptualQue/allTypeOfConstructor.cpp)
 - [longestSubstringWithoutRepeat](VIII_cppConceptualQue/longestSubstringWithoutRepeat.cpp)
 - [singletoneClass](VIII_cppConceptualQue/singletoneClass.cpp)
+- [vectorMapSetList](VIII_cppConceptualQue/vectorMapSetList.cpp)
+
