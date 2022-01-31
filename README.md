@@ -136,10 +136,8 @@ This repository contains solutions to standard interview questions in C and C++.
 
 
 # V_queue
-- [queue_using_array](V_queue/queue_using_array.cpp)
 - [queue_using_array_simple](V_queue/queue_using_array_simple.cpp)
 - [queue_using_list](V_queue/queue_using_list.cpp)
-- [queue_using_two_stacks](V_queue/queue_using_two_stacks.c)
 
 
 # VI_tree
@@ -180,3 +178,24 @@ This repository contains solutions to standard interview questions in C and C++.
 - [singletoneClass](VIII_cppConceptualQue/singletoneClass.cpp)
 - [vectorMapSetList](VIII_cppConceptualQue/vectorMapSetList.cpp)
 
+
+# Compilation Steps
+
+- To compile whole project
+```
+make all
+```
+
+- To compile examples present in single folder
+```
+make folder_name
+```
+For example,
+```
+make I_algorithms_1_maths
+```
+
+- To remove executables
+```
+make clean
+```
