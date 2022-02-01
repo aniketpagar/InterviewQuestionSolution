@@ -178,6 +178,7 @@ This repository contains solutions to standard interview questions in C and C++.
 - [singletoneClass](VIII_cppConceptualQue/singletoneClass.cpp)
 - [vectorMapSetList](VIII_cppConceptualQue/vectorMapSetList.cpp)
 - [implementStringClass](VIII_cppConceptualQue/implementStringClass.cpp)
+- [stackImplementationToConvertNumIntoBinary](VIII_cppConceptualQue/stackImplementationToConvertNumIntoBinary.cpp)
 
 
 # Compilation Steps
