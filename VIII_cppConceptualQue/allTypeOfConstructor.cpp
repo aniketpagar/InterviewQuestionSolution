@@ -69,4 +69,5 @@ int main()
     v1.push_back(move(a2));// move constructor gets called 
     Aniket a3;//default constructor
     a3 = a1;//assign operator;
+    Aniket a5(move(a1));//move constructor;
 }
