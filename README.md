@@ -177,6 +177,7 @@ This repository contains solutions to standard interview questions in C and C++.
 - [longestSubstringWithoutRepeat](VIII_cppConceptualQue/longestSubstringWithoutRepeat.cpp)
 - [singletoneClass](VIII_cppConceptualQue/singletoneClass.cpp)
 - [vectorMapSetList](VIII_cppConceptualQue/vectorMapSetList.cpp)
+- [implementStringClass](VIII_cppConceptualQue/implementStringClass.cpp)
 
 
 # Compilation Steps

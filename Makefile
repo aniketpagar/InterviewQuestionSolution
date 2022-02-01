@@ -583,7 +583,9 @@ $(VII_BIT_MANIPULATION)/set_2_bits.o: $(VII_BIT_MANIPULATION)/set_2_bits.cpp
 VIII_cppConceptualQue:$(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor.o \
 					  $(VIII_CPPCONCEPTUALQUE)/longestSubstringWithoutRepeat.o \
 					  $(VIII_CPPCONCEPTUALQUE)/singletoneClass.o \
-					  $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList.o
+					  $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList.o \
+					  $(VIII_CPPCONCEPTUALQUE)/implementStringClass.o
+					  
 
 $(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor.o: $(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor.cpp
 	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor $(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor.cpp
@@ -597,6 +599,8 @@ $(VIII_CPPCONCEPTUALQUE)/singletoneClass.o: $(VIII_CPPCONCEPTUALQUE)/singletoneC
 $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList.o: $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList.cpp
 	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList.cpp
 
+$(VIII_CPPCONCEPTUALQUE)/implementStringClass.o: $(VIII_CPPCONCEPTUALQUE)/implementStringClass.cpp
+	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/implementStringClass $(VIII_CPPCONCEPTUALQUE)/implementStringClass.cpp
 
 clean:
 	rm -f $(I_ALGORITHMS_1_MATHS)/factors_of_num
