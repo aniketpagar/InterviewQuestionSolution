@@ -5,13 +5,6 @@
 #include "iostream"
 using namespace std;
 
-// C++ program to find length of an array by writing our
-// sizeof
-#include <bits/stdc++.h>
-using namespace std;
-
-// User defined sizeof macro
-#define my_sizeof(type) ((char *)(&type + 1) - (char *)(&type))
 class stringTemp
 {
 public:
@@ -43,7 +36,6 @@ public:
     //desturctor
     ~stringTemp()
     {
-        cout<<" I am in destructor"<<endl;
         if (s != NULL)
         {
             delete s;
