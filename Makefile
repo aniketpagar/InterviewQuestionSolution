@@ -607,8 +607,8 @@ $(VIII_CPPCONCEPTUALQUE)/implementStringClass.o: $(VIII_CPPCONCEPTUALQUE)/implem
 	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/implementStringClass $(VIII_CPPCONCEPTUALQUE)/stackImplementationToConvertNumIntoBinary.cpp
 
 clean:
-	rm -f $(I_ALGORITHMS_1_MATHS)/factors_of_num
-	rm -f $(I_ALGORITHMS_1_MATHS)/gcd_lcm_of_two_nums
+	rm -f $(I_ALGORITHMS_1_MATHS)/factors_of_num.exe
+	rm -f $(I_ALGORITHMS_1_MATHS)/gcd_lcm_of_two_nums.exe
 	rm -f $(I_ALGORITHMS_1_MATHS)/is_prime
 	rm -f $(I_ALGORITHMS_1_MATHS)/print_prime_numbers
 	rm -f $(I_ALGORITHMS_1_MATHS)/factors_of_num
@@ -740,4 +740,7 @@ clean:
 	rm -f $(VIII_CPPCONCEPTUALQUE)/longestSubstringWithoutRepeat
 	rm -f $(VIII_CPPCONCEPTUALQUE)/singletoneClass
 	rm -f $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList
+	rm -f $(VIII_CPPCONCEPTUALQUE)/stackImplementationToConvertNumIntoBinary
+	rm -r $(VIII_CPPCONCEPTUALQUE)/smartPointer
+	rm -r $(VIII_CPPCONCEPTUALQUE)/implementStringClass
 
