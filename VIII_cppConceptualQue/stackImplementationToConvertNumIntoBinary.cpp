@@ -77,3 +77,8 @@ int main()
     }
     
 }
+
+/*
+    OUTPUT : -
+        decimal num : 10 binary :  1 0 1 0
+*/
