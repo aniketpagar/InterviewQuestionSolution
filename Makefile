@@ -606,6 +606,9 @@ $(VIII_CPPCONCEPTUALQUE)/implementStringClass.o: $(VIII_CPPCONCEPTUALQUE)/implem
 $(VIII_CPPCONCEPTUALQUE)/implementStringClass.o: $(VIII_CPPCONCEPTUALQUE)/implementStringClass.cpp
 	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/implementStringClass $(VIII_CPPCONCEPTUALQUE)/stackImplementationToConvertNumIntoBinary.cpp
 
+$(VIII_CPPCONCEPTUALQUE)/smartPointer.o: $(VIII_CPPCONCEPTUALQUE)/smartPointer.cpp
+	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/smartPointer $(VIII_CPPCONCEPTUALQUE)/smartPointer.cpp
+
 clean:
 	rm -f $(I_ALGORITHMS_1_MATHS)/factors_of_num.exe
 	rm -f $(I_ALGORITHMS_1_MATHS)/gcd_lcm_of_two_nums.exe
@@ -743,4 +746,6 @@ clean:
 	rm -f $(VIII_CPPCONCEPTUALQUE)/stackImplementationToConvertNumIntoBinary
 	rm -r $(VIII_CPPCONCEPTUALQUE)/smartPointer
 	rm -r $(VIII_CPPCONCEPTUALQUE)/implementStringClass
+	rm -r $(VIII_CPPCONCEPTUALQUE)/smartPointer
+	
 

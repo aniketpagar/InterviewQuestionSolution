@@ -179,6 +179,8 @@ This repository contains solutions to standard interview questions in C and C++.
 - [vectorMapSetList](VIII_cppConceptualQue/vectorMapSetList.cpp)
 - [implementStringClass](VIII_cppConceptualQue/implementStringClass.cpp)
 - [stackImplementationToConvertNumIntoBinary](VIII_cppConceptualQue/stackImplementationToConvertNumIntoBinary.cpp)
+- [smartPointer](VIII_cppConceptualQue/smartPointer.cpp)
+smartPointer
 
 
 # Compilation Steps
