@@ -12,18 +12,16 @@ class dStack
 {
     public:
     int arr[stacksize];
-    int max;
     int front, rear;
     dStack()
     {
-        max = 100;
         front =-1;
         rear = -1;
     }
     
     void push(int n )
     {
-        if(front == max-1)
+        if(front == stacksize-1)
         {
             cout<<" stack overflow"<<endl;
         }else
