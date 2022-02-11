@@ -585,7 +585,8 @@ VIII_cppConceptualQue:$(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor.o \
 					  $(VIII_CPPCONCEPTUALQUE)/singletoneClass.o \
 					  $(VIII_CPPCONCEPTUALQUE)/vectorMapSetList.o \
 					  $(VIII_CPPCONCEPTUALQUE)/implementStringClass.o \
-					  $(VIII_CPPCONCEPTUALQUE)/stackImplementationToConvertNumIntoBinary.o
+					  $(VIII_CPPCONCEPTUALQUE)/stackImplementationToConvertNumIntoBinary.o\
+					  $(VIII_CPPCONCEPTUALQUE)/mutex.o
 					  
 
 $(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor.o: $(VIII_CPPCONCEPTUALQUE)/allTypeOfConstructor.cpp
@@ -608,6 +609,9 @@ $(VIII_CPPCONCEPTUALQUE)/implementStringClass.o: $(VIII_CPPCONCEPTUALQUE)/implem
 
 $(VIII_CPPCONCEPTUALQUE)/smartPointer.o: $(VIII_CPPCONCEPTUALQUE)/smartPointer.cpp
 	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/smartPointer $(VIII_CPPCONCEPTUALQUE)/smartPointer.cpp
+
+$(VIII_CPPCONCEPTUALQUE)/mutex.o: $(VIII_CPPCONCEPTUALQUE)/mutex.cpp
+	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/mutex $(VIII_CPPCONCEPTUALQUE)/mutex.cpp
 
 clean:
 	rm -f $(I_ALGORITHMS_1_MATHS)/factors_of_num.exe
@@ -746,6 +750,6 @@ clean:
 	rm -f $(VIII_CPPCONCEPTUALQUE)/stackImplementationToConvertNumIntoBinary
 	rm -r $(VIII_CPPCONCEPTUALQUE)/smartPointer
 	rm -r $(VIII_CPPCONCEPTUALQUE)/implementStringClass
-	rm -r $(VIII_CPPCONCEPTUALQUE)/smartPointer
+	rm -r $(VIII_CPPCONCEPTUALQUE)/mutex
 	
 
