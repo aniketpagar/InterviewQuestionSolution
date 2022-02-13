@@ -75,7 +75,7 @@ node* rotateRight(node* A, int B) {
     }
     node *newHead= A->next, *temp = A->next;
     A->next = NULL;
-    cout<<"newHead for right shift list "<<newHead->data<<endl;
+    cout<<"\n newHead for right shift list "<<newHead->data<<endl;
     while(temp->next !=NULL)
     {
         temp = temp->next;
@@ -120,7 +120,7 @@ node* rotateLeft(node* A, int B) {
     }
     node *newHead= A->next, *temp = A->next;
     A->next = NULL;
-    cout<<"newHead for left shift list "<<newHead->data<<endl;
+    cout<<"\n newHead for left shift list "<<newHead->data<<endl;
     while(temp->next !=NULL)
     {
         temp = temp->next;
@@ -145,7 +145,7 @@ int main()
     insert(head, 9);
     insert(head, 10);
 
-//list to rotate left 
+    //list2 to rotate left 
     head1 = new node;
     head1->data = 1;
     head1->next = NULL;
@@ -162,11 +162,27 @@ int main()
 //both the list are same
     cout<<" display the input list"<<endl;
     display(head);
+
     head = rotateRight(head,2);
-    cout<<" display the right shift list"<<endl;
+    cout<<" \n display the right shift list"<<endl;
     display(head);
+
     head1 = rotateLeft(head1,2);
-    cout<<" display the left shift list"<<endl;
+    cout<<" \n display the left shift list"<<endl;
     display(head1);
 
 }
+/*
+    display the input list
+    1 2 3 4 5 6 7 8 9 10
+
+    newHead for right shift list 9
+
+    display the right shift list
+    9 10 1 2 3 4 5 6 7 8
+
+    newHead for left shift list 3
+
+    display the left shift list
+    3 4 5 6 7 8 9 10 1 2
+*/
