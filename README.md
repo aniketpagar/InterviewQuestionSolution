@@ -183,8 +183,6 @@ This repository contains solutions to standard interview questions in C and C++.
 - [mutex](VIII_cppConceptualQue/mutex.cpp)
 - [minOperation](VIII_cppConceptualQue/minOperation.cpp)
 - [rotateLinkList](VIII_cppConceptualQue/rotateLinkList.cpp)
-smartPointer
-
 
 # Compilation Steps
 
