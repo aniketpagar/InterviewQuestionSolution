@@ -181,6 +181,8 @@ This repository contains solutions to standard interview questions in C and C++.
 - [stackImplementationToConvertNumIntoBinary](VIII_cppConceptualQue/stackImplementationToConvertNumIntoBinary.cpp)
 - [smartPointer](VIII_cppConceptualQue/smartPointer.cpp)
 - [mutex](VIII_cppConceptualQue/mutex.cpp)
+- [minOperation](VIII_cppConceptualQue/minOperation.cpp)
+- [rotateLinkList](VIII_cppConceptualQue/rotateLinkList.cpp)
 smartPointer
 
 

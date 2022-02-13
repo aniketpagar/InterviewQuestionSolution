@@ -613,6 +613,11 @@ $(VIII_CPPCONCEPTUALQUE)/smartPointer.o: $(VIII_CPPCONCEPTUALQUE)/smartPointer.c
 $(VIII_CPPCONCEPTUALQUE)/mutex.o: $(VIII_CPPCONCEPTUALQUE)/mutex.cpp
 	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/mutex $(VIII_CPPCONCEPTUALQUE)/mutex.cpp
 
+$(VIII_CPPCONCEPTUALQUE)/rotateLinkList.o: $(VIII_CPPCONCEPTUALQUE)/rotateLinkList.cpp
+	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/rotateLinkList $(VIII_CPPCONCEPTUALQUE)/rotateLinkList.cpp
+
+$(VIII_CPPCONCEPTUALQUE)/minOperation.o: $(VIII_CPPCONCEPTUALQUE)/minOperation.cpp
+	g++ $(FLAGS) $(VIII_CPPCONCEPTUALQUE)/minOperation $(VIII_CPPCONCEPTUALQUE)/minOperation.cpp
 clean:
 	rm -f $(I_ALGORITHMS_1_MATHS)/factors_of_num.exe
 	rm -f $(I_ALGORITHMS_1_MATHS)/gcd_lcm_of_two_nums.exe
