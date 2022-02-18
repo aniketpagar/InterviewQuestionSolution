@@ -33,11 +33,11 @@ string lengthOfLongestSubstring(string input)
     }
   cout<<"substring : "<<input.substr(start,end-start+1)<<endl;
   cout<<"length Of Longest Substring :"<<ans<<endl;
-  return "";
+  return input.substr(start,end-start+1);
 
 }
 int main()
 {
     string a("aaanikettttt");
-    lengthOfLongestSubstring(a);
+    string ans = lengthOfLongestSubstring(a);
 }
