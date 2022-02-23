@@ -87,7 +87,7 @@ int main()
     delete b;
     /*
          if distructor is virtual then only derived & base destructor get called
-         otherwise only base constructor get called on deleting the obj.
+         otherwise only base destructor get called on deleting the obj.
     */
     
 }
