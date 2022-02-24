@@ -11,7 +11,7 @@ class base
 {
     public:
     base(){}
-    virtual void display()=0;
+    virtual void display()=0;//pure virtual function
 };
 class derived : public base
 {
