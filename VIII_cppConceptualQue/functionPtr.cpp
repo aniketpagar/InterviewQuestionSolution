@@ -1,3 +1,8 @@
+
+/*
+Function pointers can be useful when you want to create callback mechanism, 
+and need to pass address of a function to another function.
+*/
 #include "iostream"
 using namespace std;
 void display()
