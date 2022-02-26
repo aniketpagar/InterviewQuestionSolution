@@ -1,0 +1,394 @@
+explicit keyword?
+design pattern
+can inline as a static? --> Yes
+can inline as a const? --> Yes
+can static function as const?  --> Yes
+can constructor be a virtual? --> No, when constructor execute that time vtable is not present
+can virtual function as a const? --> Yes
+pointer vs reference?
+can we overide constructor & distructor? --> override constructor are allowed but override destructor not allowed
+can we make virtual function as a static? No.
+some of the questions on the copy constructor?
+
+1. what is dangling pointer?
+	when pointer is deleted;
+	wild pointer = only pointer define, not declare, eg. int *p;
+2. what is difference between macro and inline functions and constant ?	
+	const is a keyword having scope , by using #define we can also replace name but using const we cant replace name.
+3. diff const vs #define - > const is better bcz its having scope; #define is prepreocessor directive, where const is checked at compile  time, 
+	pointer can assign to const variable.
+
+Four Steps of Compilation: preprocessing, compiling, assembly, linking.
+	
+
+4. what is static variable and static function. -> https://www.studytonight.com/cpp/static-keyword.php
+5. what is functionality of MME
+6. WHAT HAPPEn when we run the function(memory allocation)
+7. macro for sizeof operator -> #define SIZEOF(object) (char *)(&object+1) -(char *) (&object)
+8. macro to calculate max num  -->#define MAX(X, Y) ((X>Y)?(X):(Y))
+9. structure vs union
+10. memory corruption vs leak vs dangling pointer
+11. copy constructor vs assign operator.
+12. is there any way to tell compiler that dont do inline? Yes, call the function using pointer.
+13. How is the tail command of Unix implemented using C?  
+14. How to serialize a binary tree to send it over a network and to deserialize it later?  
+15. Divisibility by 3 state machine and C code for the same  
+16. How to find whether a number is a power of 2 in O(1) time complexity?  
+17. Find the prime number from 1 to 1 million- > 6x +- 1
+18. How to find a number in an array of numbers whose size is n+1 with elements 1 to n present in any order along with an element repeated twice
+19. Explain what happens when you type url in browser. 
+20. Sort array of 0 and 1s  
+21. bit shifting, toggle in c?
+22. how to sort an array of marks in the fastest way with least space complexity. (merge sort)
+23. Describe logic behind C linker 
+24. vector map multimap set list
+25. what is fucntion overloading, how compiler handle it? how actually it works?  what is template?
+26. what is the virutal function ? how compilerr handle it? how virtual table works? why we need virtual function?
+27. what is pointer table?
+28. c++ version? c++11
+29. singletone class and its application and example?
+30. Static Class? You cannot create the instance of static class.
+31. how the networks work?
+32. all smart pointer
+33. what is namespace - > we need namespace to avoid  variable name conflicts.
+34. is it possible to compile code without main()? Yes its possible using "gcc -c " but it will not link and will not create a .o file
+35. what is abstract class & interface? // abstract class cant be used to instantiate objectss & its virutal function do not have any defination 
+36. diff between virtual & pure virtual function?
+37. shallow copy vs deep copy.
+38. what is late binding? --> runtime polymerfism
+39. what is namesocket
+40. try and catch exception handling?
+41. write code for stack?
+42. what is virtual destructor? why virtual constructor is not require?//to delete the 
+43. tcp vs sctp vs udp?
+44. what is function pointer and  pointer to array and array of pointer.
+45. hypervisor and virtualization.
+46. stringstream istringstream ostringstream
+47. write a funtion to find substring from big string?
+48. c code to write how many times substring is present in the parent string
+49. write c code to fibonesis series with all way
+50. static & dynamic polymerphism?
+51. public private protected?
+52. in singlelink list if i give u a pointer to one and wanted to delete that pointer, how u can do that?
+53. what is output for(i=0;i = 5;i++)
+54. what is difference between tree and binary tree?
+55. what is typedef?   typedef <existing name> <new_name> ; typedef is compiler token, it follow scope, 
+	# define does not follow scope and it is prepreocessor(befr compilation)
+56. what is sliding in tcp?==>The sliding window is a technique for sending multiple frames at a time.
+57. what is mean 32 bit machine and 64 bit machine? 64 bit machine having more address line and address space than 32 bit.
+		size of int in 32/64 but machine is same of 4 bytes
+		size of pointer in 32 bit machine is 4 byte and in 64 bit machine is 8 byte
+58. what is structure padding? how to avoid this? this can be avoid by using pragma pack & __attribute__((packed)); 
+59. how to convert string to ip?
+60. three switches outside of room and three buld inside of room puzzle
+61. two ropes which can burn for 30 mint and how to calculate 45 mints
+62. malloc calloc, realloc?
+63. how we get to know our code have memory leak?-> valgrind
+64. is it possible to make overload of static function? --> we can overload a static method but we can't override a static method 
+65. int fuction_name(int a) ; int function_name(const int a)   -> compiler will give error as -> can not be overloaded
+66. int fuction_name(int a) ; const int function_name(const int a) -> compiler will give error as -> can not be overloaded
+67. what is the function overloading and overriding?
+68. different way to insert element in the map.-> m1[0]=1, m1.insert({1,2});
+	m1[0] =1; m1[0] =2; what will happen if we continuously give these command.
+69. can we make static function as virtual function. -> compiler will give error that function can not be made static and virtual at a same time
+70. what are the access specifier in cpp?
+71. what will happen for this function const void add(int a , int b); it will not allow to change the class data;
+72. map store key in ascending order, how to make it descending order. => map<int, string, greater <int> > mymap;
+73. what is virtualdestructor ? ==> https://www.linkedin.com/pulse/why-do-we-need-virtual-destructors-joydip-kanjilal/
+74. how many virtual table for class? vtable = number of class  and vptr= number of objects
+			Each class will have its own virtual table.
+			While each object has its own virtual pointer
+75. design pattern in cpp? => Creational Patterns, Structural Patterns, Behavioral Patterns, single tone, abstract
+76. when overloading and overiding happnen? overloading happen at compilation time and overiding happen at runtime(virtual function)
+77. what is enum class? in enum class, redeclaration is allow, changing value is allow
+	enum classes - enumerator names are local to the enum and their values do not implicitly convert to other types (like another enum or int)
+	Plain enums - where enumerator names are in the same scope as the enum and their values implicitly convert to integers and other types
+78. what are the user defined data types in in cpp?
+79. to call a macro of square of numbers with (3+1)  -> its depend on how u wrote a macro. this expression X is replace by the 3+1 
+80. what is race condition and what is deadlock
+81. what diff between pass by address vs pass by reference
+	A pointer can be re-assigned while reference cannot, and must be assigned at initialization only.
+	Pointer can be assigned NULL directly, whereas reference cannot.
+	Pointers can iterate over an array, we can use ++ to go to the next item that a pointer is pointing to.
+	A pointer is a variable that holds a memory address. A reference has the same memory address as the item it references.
+	A pointer to a class/struct uses ‘->'(arrow 
+82. what is const member function
+83. size of structure with 
+	struct aniket
+	{	short int a;	
+		char b;
+	} ==> 4 byte;
+84. what is volatile data type?=> value may change without any modification, 
+	it is used in multi-threading to make sure that the mulitple thread alwys see the lastest value
+85. what is structure padding?
+86. memory layout?
+87. where static variable store and const? => static and const both are store in data segment
+No, it will give redeclaration error, because argument are same, if we make different arguments , then it will compile
+88. what is interface in cpp? --> its a abstract class
+89. difference between reference and pointer in detail? 
+90. swap ( *p, &a)
+91. what is final class?
+	final specifier in C++ 11 can also be used to prevent inheritance of class / struct. If a class or 
+	struct is marked as final then it becomes non inheritable and it cannot be used as base class/struct. 
+	class base final
+	{
+
+	};
+	this base class wont be inheritance
+92. is it possible to write recursive inline function? ==> yes its possible.
+93. code segment mode?
+94. static const function?
+  	A 'const member function' is not allowed to modify the object it is called on, 
+	but static member functions are not called on any object. It is used directly by scope
+        resolution operator. Thus having a const static member function makes no sense, hence it is illegal.
+        we can write that, it will compile, but writing make no sense.
+95. #include "iostream"
+	using namespace std;
+	int main()
+	{
+    		int a[10];
+		int *ptr = a;
+		for(int i = 0; i<5 ; i++)
+		{
+		   *(ptr+i) = i;
+		}
+		cout<<*ptr++<<endl;    // 0
+		cout<<(*ptr)++<<endl;   //1
+		cout<<*ptr<<endl;       //2
+		cout<<*++ptr<<endl;     //2
+		cout<<++*ptr<<endl;     //3
+	}
+96. conversion of integerstring to integer--> stoi is api to do that, or   in a while loop    result = 10*result + (s[i] - '0');
+97. find last nth element in single link list?
+98. what is static vs dynamic binding?
+99. what is linking error & compilation error?
+100. what is undefined reference error?
+101. what is preprocessor directive? why we write in header file startig and ending?
+102. when we crete object where memory get allocated ? --> stack/heap.
+103. what is dynamic polymerphism? --> virtual function
+104. diff between vector and list?
+105. if (a &b)  if (a &&b)
+why we need #ifndef and #endif  in header file-> when we include file in multiple cpp file ,
+		 then it will create the entry multiple time to make it in a single time we used #define
+106. when we create the pointer, where it exactly point?
+107. do we need to write a destructor in cpp?
+	The default destructor works fine unless we have dynamically allocated memory or pointer in class. When a class contains a pointer 
+	to memory allocated in class, 
+	we should write a destructor to release memory before the class instance is destroyed. This must be done to avoid memory leak.
+108. REFERENCE VS POINTER
+	to use smart pointer we need to use #include <memory>
+	SMART POINTER  -> In smart pointer if we allocate memory using new then we dont need to worry about its deletion
+	   unique pointer when get out of scope its get deleted automatically, we can not copy unique pointer
+		
+	  share_ptr -> when reference count become 0(i.e all pointer goes out of scope) its get deleted, it used memory from stack
+		for unique pointer memory is allocated from stack
+109. DELETE VS MALLOC
+110. - why we need copy constructor of we are having default copy conmstructor? ==? default copy constructor do shallow copy
+111. 	if(printf("hello") && printf("world"))
+		{
+			printf("X");
+		}
+
+		if(printf("hello") || printf("world"))
+		{
+			printf("Y");
+		}
+
+
+		if(printf("") || printf("world"))
+		{
+			printf("Z");
+		}
+112. - what is make file.
+	 if we give core file, ? how will you get to know that this for which process? =>
+ 	 file < corefile_name > --> it gives binary name, for which core happened.
+	 what is exception?
+  plz check written code in onlinegdb.com
+  what is printf? operator/fuction?
+  its a function
+  what is cout and cin?
+   cout and cin are the object of type ostream and istream 
+113. what is process ?
+114. write a code to add element in the linklist.
+115. write a code for 2^3 ? and optimize it ? whats the complexity?
+116. what is static member function?
+117. handover types signliing and IE's
+118. paging processure 
+119. WHAT is sctp?
+120. what is dscp?
+121. how to print ip address
+122. what is data plane and control plane
+123. how to check that list hast has loop and on which element?
+124. what are the types of address?
+125. what are the types of linux?
+126. map operation?
+127. gtpu tcp?
+128. what are the protocol run on datapath and control path?
+129. what is s1ap?
+130. what is system call?
+131. file system?
+132. what is process & thread?
+133. what is file?
+134. lets consider ip address is in string format and we want its decimal how we can achive
+    write code for it
+135. what is multithreading?  
+136. what is critical section?
+137. what is mutex and semaphore in cpp?
+138. difference  between .h and .hpp file?
+139. if multiple msg is landing on a port, how to scale the system?
+140. what all are the searching algorithm?
+141. can constructor be static in cpp? => NO
+142. delete the node?
+143. what is gtpu?
+144. what is scef?
+145. what is the initial call attach procejure?
+146. couchbase vs oracle dB?
+147. why to go with yang?
+148. what is DRA functionality?
+149. what is runtime polymerphism without virtual function?
+150. guti, supi, suci?
+151. if vector is in iterator loop and we resize the vector size, what will happen?how we can avoid? -->vector::reserve() , we should reserve the block of memory
+   is vector store continiously? -> no, vector store in block of memory, on oversize , vectors changes its location store twice of memory
+152. replace command in linux? sed 's/aniket/pagar/g' file.txt
+153. what is apn in telecomm?
+154. we are having global variable and we are having 5 threads , all are incrementing at same time, what will happen? its a random behaviour
+155. difference between template function and class?
+156. what is SED, awk in linux?
+157. command to check memory used by process?
+158. how to set conditional breakpoint in gdb? ==> condition 1 i > 5 , here 1 is breakpoint number
+159. how crash path can change?
+160. a->b->c->d how constructor and destructo get called for object d?
+    constructor = a->b->c->d
+    destructor = d->c->b->a
+161. grep for any keyword and print its next line, command?
+162. what is 4g attach call flow?, what is nidd call flow?
+163. how we can use this pointer in static function?
+   we can't use this pointer in static function.
+164. difference between structure and class?
+    https://www.geeksforgeeks.org/difference-between-class-and-structure-in-c-sharp/#:~:text=A%20class%20is%20a%20user,actions)%20into%20a%20single%20unit.&text=A%20structure%20is%20a%20collection,types%20under%20a%20single%20unit.
+165. can we define function inside structure? YES we can.
+166. what is static library & dynamic library?
+167. what are the function get default invoke in compilation time? eg. default constructor etc.
+168. what is the difference between inline and macro?
+169. diff between http1.1 vs 2.0?
+170. can we pass reference variable to function to function to function call? YES
+171. to check 15 is power of 3?
+172. to check 27 is power of 3?
+173. 64 is power of 4?
+174. anagrame concept code in c string?
+175. why ram is not bigger than secondary memory?
+		HTTP1.1
+
+		-- In HTTP1.1, there are 6 tcp connection are suppoerted by browser, but as the webpages are very big, now those are very less,
+		-- every HTTP req is independent on previous and next req, so every they carry a header & some common data, cookies cache-control param
+		-- keep alive is used to resuse tcp connection.
+
+		HTTP2.0
+
+		-- single http connection is being use, stream are used, in every stream is a req	
+		-- compulsory to have TLS setup, 
+		-- as a single tcp connection, so its faster
+		-- multiplexing stream into the one
+		-- header also can compress,
+		-- if precedding req having same header data then it will not carry heder data for all req, it will cache
+		-- its backword compatible to http1.1
+176. what is NAT?
+177. how to check configuration?
+178. how to use sed?
+179. febonasis series?
+180. about NEF?
+181. what is a search complexity of tree? --> o(log(n))
+182. what is virtual function? =>A virtual function is a member function which is declared within a base class and is re-defined(Overriden) by a derived class
+183. que:-> int i = 0;
+
+	n threads incrment i++
+	m threads decrement i--
+	what would be the value for i after the execution of n + m threads? --> n-m
+184. mutex?
+185. vector<A> aa;
+   vector<A> bb;
+   how to prevent aa=bb, it should show compilation error?
+   Ans: make copy constructor and assign operator private.
+186. when to use tree and when to use linklist?
+187. what is template?
+188. cpp code for factorial?
+189. how to make pointer read only inside the function? => make pointer const
+190. signalling between all node for SCEF and NEF?, CER and CEA ?
+191. monolithic vs microservice?
+192. type casting types and code, when to use when?
+193. three vector having sorted int num, find out the lowest number which is present in all three vector?
+194.    	 A
+	       B   c
+
+	*a = new B;
+
+	*b1 = a ; is it possible? => we need to do downcast, one function of A class should be virtual
+	how we can use typecast here? 
+195. NEF application?
+	how ue attach in 5G, all 5g procejure?
+196. what is friend functio & friend class?
+197. what id diamond problem, how we can solve? =>we can solve that using virtual inheritance, plz check code in laptop
+198. if we include same header(having one static variable) file in two cpp file, what will happen?
+199. what are the types of IPC? shared memory, message ques, socket, n/w socket, pipe's.
+200. what is network congestion, how server will know that network got congestion?
+201. what is page falut? =>A page fault occurs when a program attempts to access data or code that is in its address space,
+			 but is not currently located in the system RAM
+		 	 https://www.geeksforgeeks.org/page-fault-handling-in-operating-system/
+202. steps of compilation? what is intermediator file after compilation?
+203. smart pointer cyclic ?
+204. memset & memcpy
+205. how to delete element  from array, dynamic array ? vector
+206. thread t1,t2 -> show in t1->A, t2->B, t1->C, t2->D?
+207. why we need void pointer?
+208. can we & of const variable?
+209. static vs volatile variable?
+210. sql queries?
+211. vector implementation using c?
+212. c++ inheritance type?
+213. do reverse linklist?
+214. if we are getting core of 5GB and our system is also working on 5GB ram, we can debug this issue?
+215. what is north bound api?
+216. what is unique_lock, lock_guard. mutex.lock()?
+217. why we are doing double lock in the singletone class?
+218. move constructor?
+219. what is rvalue & lvalue?-> rvalue is a actual value and lvalue is a address, eg. rvalue = in y = 99; lvalue = int *p = (&y)/pointer_name etc;
+220. size of empty class and size of virtual function class?
+ 	 ==> empty class or class with display function having size of 1 byte,
+		for virtual function, it will take virtual pointer, so if system is 64 bit, then it will be 8 & for 32 bit system it would be 4 byte.
+221. what is the difference between thread and process?
+222. what is socket, socket function call, is it mandatory to use bind function in client, if not then how can server would reply to client?
+223. what is inner class, how to create object of inner class?
+224. what is impact of thread on cpu utilization?, if our monolithik is having 20% cpu utilization, should we go to multithread architecture?
+225. number of threads are depend on what? what is the formula?
+226. if server is connected to 5 client, then how many socket do server had? -> 6 ( 5 +1(listen mode))
+227. what is interface class without inheritance? can we do function overiding in normal or interface class?
+228. is socket is a physical connection?
+229. 
+
+-------------------------------
+C++ - CODE ->
+1 height of bst
+2 width of bst
+3 level order print of BST
+4 left& top view print of BST
+5 invert the BST
+6 inorder, preorder, postorder
+
+greph
+7. BFS
+8. DFS
+9. isCyclic
+10. toposort
+11. 
+
+
+matrix
+12. print diagonal element in upward/downward direction?
+13. find shortest path weight from top left to botton right element?
+14. find shortest path weight from top left to bottom right element if any constraint is present
+15. print diagonal element in zig-zag way
+16. print matrix element in circular way;
+
+
+
+-------------------------------
