@@ -328,7 +328,8 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 	how ue attach in 5G, all 5g procejure?
 196. what is friend functio & friend class?
 197. what id diamond problem, how we can solve? =>we can solve that using virtual inheritance, plz check code in laptop
-198. if we include same header(having one static variable) file in two cpp file, what will happen? ==> it will create/allocate seperate memory to static variable(in every 			.cpp file), and that memory will have scope in that c++ file only.
+198. if we include same header(having one static variable) file in two cpp file, what will happen? ==> it will create/allocate seperate memory to 
+        static variable(in every .cpp file), and that memory will have scope in that c++ file only.
 199. what are the types of IPC? shared memory, message ques, socket, n/w socket, pipe's.
 200. what is network congestion, how server will know that network got congestion?
 201. what is page falut? =>A page fault occurs when a program attempts to access data or code that is in its address space,
