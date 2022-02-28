@@ -30,7 +30,14 @@ bool isValidIpv4(string a)
         }
         else
         {
-            temp = temp + a[i];//collect the number till  . 
+            
+
+            temp = temp + a[i];//collect the number till  
+            int i = stoi(temp);
+            //cout<<i<<endl;
+            //this 1.2.07.5 is invalid as 07 is not correct
+            if(i == 0)
+                return false; 
         }
     }
     //check the last integer, that has stored in temp;
@@ -51,8 +58,14 @@ int main()
     else
         cout<<" is not valid"<<endl;
 
-    string a1("12.2323.2.67");
+    string a1("12.23.2.07");
     if(isValidIpv4(a1))
+        cout<<" is valid"<<endl;
+    else
+        cout<<" is not valid"<<endl;
+    
+    string a4("12.230.20.1");
+    if(isValidIpv4(a4))
         cout<<" is valid"<<endl;
     else
         cout<<" is not valid"<<endl;
@@ -66,8 +79,9 @@ int main()
 
 /*
     OUTPUT - 
-            the IP : 12.2.2.67  is valid
-            the IP : 12.2323.2.67  is not valid
-            the IP : 12.2.2w.67  is not valid
+                the IP : 12.2.2.67  is valid
+                the IP : 12.23.2.07  is not valid
+                the IP : 12.23.2.07  is not valid
+                the IP : 12.2.2w.67  is not valid
 
 */
