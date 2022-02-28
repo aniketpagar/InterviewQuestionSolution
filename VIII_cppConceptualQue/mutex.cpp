@@ -24,10 +24,20 @@ void display()
     cout<<" I am in a display function : "<<this_thread::get_id()<<endl;
     mt.unlock();
 }
+void add(int a, int b)
+{
+    lock_guard<mutex> lck(mt);// this get unlock once it goes out of scope
+    cout<<"sum : "<<a+b<<endl;
+}
 int main()
 {
     thread t1(display);
     thread t2(display);
     t1.join();
     t2.join();
+
+    thread t3(add,1,2);
+    thread t4(add,3,2);
+    t3.join();
+    t4.join();
 }
