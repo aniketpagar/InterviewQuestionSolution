@@ -366,7 +366,36 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 228. is socket is a physical connection?
 229. ln command to link the file(Oracle que)
 230. chmod command & its number meaning?(oracle que)
+231.  malloc implementation
+	void * Malloc(int size)
+	{
+		struct meta_block_t *p;
+		p = (meta_block_t*) sbrk(0); // this will point to break point
 
+		if(sbrk(size + sizeof(meta_block_t)) == NULL)
+			return NULL;
+
+		p->size = size;
+		p->next = NULL;
+		p->isFree = FALSE;
+		return p; // to return the memory 
+	}
+232. difference between user level thread Vs kernal level thread
+
+	      --User level thread--						      --Kernel level thread--
+	User thread are implemented by users.					kernel threads are implemented by OS.
+	OS doesn’t recognize user level threads.				Kernel threads are recognized by OS.
+	Implementation of User threads is easy.					Implementation of Kernel thread is complicated.
+	Context switch time is less.						Context switch time is more.
+	Context switch requires no hardware support.			        Hardware support is needed.
+	If one user level thread perform blocking 				If one kernel thread perform blocking operation then another thread can 	continue execution.
+	   operation then entire process will be blocked.	
+	User level threads are designed as dependent threads.			Kernel level threads are designed as independent threads.
+	Example : Java thread, POSIX threads.					Example : Window Solaris.
+
+
+
+//meta_block_t is a local structure.
 -------------------------------
 C++ - CODE ->
 1 height of bst
