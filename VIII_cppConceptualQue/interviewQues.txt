@@ -364,7 +364,8 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 226. if server is connected to 5 client, then how many socket do server had? -> 6 ( 5 +1(listen mode))
 227. what is interface class without inheritance? can we do function overiding in normal or interface class?
 228. is socket is a physical connection?
-229. 
+229. ln command to link the file(Oracle que)
+230. chmod command & its number meaning?(oracle que)
 
 -------------------------------
 C++ - CODE ->
