@@ -2,9 +2,11 @@
 #include <list> 
 #include "vector"
 using namespace std; 
+#include <map>
 
 // This class represents a directed graph using 
 // adjacency list representation 
+
 class Graph 
 { 
 	int V; // No. of vertices 
@@ -12,6 +14,7 @@ class Graph
 	// Pointer to an array containing adjacency 
 	// lists 
 	list<int> *adj; 
+    map<int, bool> visited;//using in  DFS function
 public: 
 	Graph(int V) 
 	{ 
@@ -21,8 +24,10 @@ public:
 	// function to add an edge to graph 
 	void addEdge(int v, int w); 
 
-	// prints BFS traversal from a given source s 
+
 	void BFS(int s); 
+
+	void DFS(int s); 
 }; 
 
 void Graph::addEdge(int v, int w) 
@@ -35,7 +40,7 @@ void Graph::addEdge(int v, int w)
 void Graph::BFS(int s) 
 { 
 	// Mark all the vertices as not visited 
-    vector<bool> visited(V, false);
+    vector<bool> visited(V, false);//or we can also use class visited map 
 	// Create a queue for BFS 
 	list<int> queue; // here we can alos queue directly by adding the queue lib
 	
@@ -61,6 +66,17 @@ void Graph::BFS(int s)
 	} 
 } 
 
+//depth first search, it work on stack algorithm
+void Graph::DFS(int a)
+{
+   visited[a]=true;
+   cout<<a<<" ";
+   for(auto it : adj[a])
+   {
+       if(visited[it] == false)
+         DFS(it);
+   }
+}
 
 int main() 
 { 
@@ -75,6 +91,9 @@ int main()
 
 	cout << "BFS starting from vertex 2)  --> "; 
 	g.BFS(2); 
+    cout<<endl;
+    cout << "DFS starting from vertex 2)  --> "; 
+	g.DFS(2); 
 
 	return 0; 
 } 
