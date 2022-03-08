@@ -393,7 +393,13 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 	User level threads are designed as dependent threads.			Kernel level threads are designed as independent threads.
 	Example : Java thread, POSIX threads.					Example : Window Solaris.
 
-
+233. what is rest server, how http server create the thread?
+234. 5G procejure?
+235. how you create thread un your application?
+236 diff between extern and global variable?
+237. api to resize vector?  vec.resize(4);//here is a size of vector.
+238. what is process synchronization?
+239. 
 
 //meta_block_t is a local structure.
 -------------------------------
