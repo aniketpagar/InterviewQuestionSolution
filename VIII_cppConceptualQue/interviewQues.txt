@@ -1,4 +1,4 @@
-explicit keyword?
+explicit keyword?  => Explicit Keyword in C++ is used to mark constructors to not implicitly convert types in C++. It is optional for constructors that take 		exactly one argument and works on constructors(with single argument) since those are the only constructors that can be used in type casting.
 design pattern
 can inline as a static? --> Yes
 can inline as a const? --> Yes
