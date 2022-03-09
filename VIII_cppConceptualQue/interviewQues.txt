@@ -37,7 +37,7 @@ Four Steps of Compilation: preprocessing, compiling, assembly, linking.
 17. Find the prime number from 1 to 1 million- > 6x +- 1
 18. How to find a number in an array of numbers whose size is n+1 with elements 1 to n present in any order along with an element repeated twice
 19. Explain what happens when you type url in browser. 
-20. Sort array of 0 and 1s  
+20. Sort array of 0 and 1s   
 21. bit shifting, toggle in c?
 22. how to sort an array of marks in the fastest way with least space complexity. (merge sort)
 23. Describe logic behind C linker 
@@ -160,7 +160,7 @@ No, it will give redeclaration error, because argument are same, if we make diff
 	}
 96. conversion of integerstring to integer--> stoi is api to do that, or   in a while loop    result = 10*result + (s[i] - '0');
 97. find last nth element in single link list?
-98. what is static vs dynamic binding?
+98. what is static vs dynamic binding?-->static binding ->function oveloading , dynamic binding ->function overiding 
 99. what is linking error & compilation error?
 100. what is undefined reference error?
 101. what is preprocessor directive? why we write in header file startig and ending?
