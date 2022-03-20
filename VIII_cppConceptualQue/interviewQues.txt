@@ -10,8 +10,8 @@ can we overide constructor & distructor? --> override constructor are allowed bu
 can we make virtual function as a static? No.
 some of the questions on the copy constructor?
 
-1. what is dangling pointer?
-	when pointer is deleted;
+1.  what is dangling pointer?
+    when pointer is deleted;
 	wild pointer = only pointer define, not declare, eg. int *p;
 2. what is difference between macro and inline functions and constant ?	
 	const is a keyword having scope , by using #define we can also replace name but using const we cant replace name.
@@ -399,7 +399,17 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 236 diff between extern and global variable?
 237. api to resize vector?  vec.resize(4);//here is a size of vector.
 238. what is process synchronization?
-239. 
+239. LTE call flow?
+240. Print all IPs based on IP and mask C++?-> parallel wireless que
+241. can we define extern in one file and use in another file
+242. if static variable is declare in the .h file & if we include that header file in another .cpp file
+   		will it be a same memory?
+243. what is call back function?
+244. find the min & max of array using minimum comparison?
+245. difference between inline function and macro?
+246. what is adavantage of using macro?
+
+
 
 //meta_block_t is a local structure.
 -------------------------------
