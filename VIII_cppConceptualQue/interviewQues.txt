@@ -395,7 +395,7 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 
 233. what is rest server, how http server create the thread?
 234. 5G procejure?
-235. how you create thread un your application?
+235. how you create thread in your application?
 236 diff between extern and global variable?
 237. api to resize vector?  vec.resize(4);//here is a size of vector.
 238. what is process synchronization?
@@ -405,9 +405,12 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 242. if static variable is declare in the .h file & if we include that header file in another .cpp file
    		will it be a same memory?
 243. what is call back function?
-244. find the min & max of array using minimum comparison?
-245. difference between inline function and macro?
-246. what is adavantage of using macro?
+244. find the min & max of array using minimum comparison? ->Synopsis
+245. difference between inline function and macro? --> Synopsis
+246. what is adavantage of using macro? -->Synopsis
+247. print the triangle using . in c/c++?  -> CISCO
+248. insertion of BST and why BST is not a good choice? --> CISCO
+249. write the programe to remove all substring from the the input string ? input-> (inputString, substring) -->CISCO
 
 
 
