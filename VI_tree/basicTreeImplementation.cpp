@@ -11,6 +11,7 @@
 #include "iostream"
 using namespace std;
 #include "queue"
+#include "list"
 
 //Node data structure
 typedef struct Node
@@ -101,6 +102,25 @@ int getMaxHeight(Node* temp)
     return -1;
 }
 
+int getMaxHeightWithRecursiveFunction(Node* temp)
+{
+    list<Node*> queue;
+    int ans =-1;
+    queue.push_back(temp);
+    while(!queue.empty())
+    {   
+        ans++;
+        int size = queue.size();
+        for(int i =0;i<size;i++)
+        {
+            Node *temp1=queue.front();
+            queue.pop_front();
+            if(temp1->right != NULL) queue.push_back(temp1->right);
+            if(temp1->left != NULL) queue.push_back(temp1->left);
+        }
+    }
+    return ans;
+}
 
 //function to calculate width of the tree
 //for concept 
@@ -164,6 +184,7 @@ int main()
 
     //find the height of the tree
     cout<<"height of the tree :"<<getMaxHeight(root)<<endl;
+    cout<<"height of the tree without recursice function :"<<getMaxHeightWithRecursiveFunction(root)<<endl;
 
     //find the max width of the tree
     cout<<"width of the tree :"<<getMaxWidthOfTheTree(root)<<endl;
