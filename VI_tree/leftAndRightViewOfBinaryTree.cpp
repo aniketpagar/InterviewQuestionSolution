@@ -80,23 +80,34 @@ void displayTopViewOfTree(Node* temp)
     q.push(temp);
     list<int>ans;
     int rootData= temp->data;
+    ans.push_back(rootData);
+    int max = rootData , min= rootData;
 
     while(!q.empty())
     {
         int size = q.size();
-        //storing data according to top view
-        if(q.size()==1)//only single element in tree level.
+        
+        //approch
+        //maintain min and max, check the each node data and compare it with min max
+        //and add it in a ans list.
+
+        //cout<<"min : "<<min<<" max: "<<max<<"  front  : "<<q.front()->data<<"  back  : "<<q.back()->data<<endl;
+        if(((q.front()->data< min) ||  (max < q.back()->data)))
         {
-            if(rootData< q.front()->data)
-                ans.push_back(q.front()->data);
-            else
+            
+            if(max < q.back()->data)
+            {
+                //cout<<" changing  max :"<<q.back()->data<<endl;
+                max = q.back()->data;
+                ans.push_back(q.back()->data);
+            }
+            if( q.front()->data < min) 
+            {
+                //cout<<" changing min :"<<q.front()->data<<endl;
+                min = q.front()->data;
                 ans.push_front(q.front()->data);
-        }
-        else//to store first & last element of level
-        {
-            ans.push_front(q.front()->data);
-            ans.push_back(q.back()->data);
-        }
+            }
+        }   
 
         for(int i =0;i<size;i++)
         {
@@ -143,13 +154,14 @@ int main()
     insert(root,30);
     insert(root,20);
     insert(root,40);
+    insert(root,45);
     insert(root,70);
     insert(root,60);
     insert(root,80);
     insert(root,150);
+    insert(root,120);
 
     displayLeftViewOfTree(root);
     displayRightViewOfTree(root);
     displayTopViewOfTree(root);
-
 }
