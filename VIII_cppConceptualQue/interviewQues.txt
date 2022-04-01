@@ -411,7 +411,15 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 247. print the triangle using . in c/c++?  -> CISCO
 248. insertion of BST and why BST is not a good choice? --> CISCO
 249. write the programe to remove all substring from the the input string ? input-> (inputString, substring) -->CISCO
+250. difference between abstract class and interface class
 
+	Classes cannot be created of both interfaces and abstract classes
+	Interfaces cannot contain any data types(only functions)whereas abstract classes can contain both.
+	Abstract classes can contain abstract functions whose body is provided by them whereas in interfaces no body is provided for any function,they are to be implemented by the class extending the interface
+	If a class contains an abstract function it must be a abstract class.
+
+251.
+252.
 
 
 //meta_block_t is a local structure.
