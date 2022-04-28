@@ -9,6 +9,8 @@ using namespace std;
 #include "queue"
 vector<int> maxOccuranceNum(vector<int>a,int k)
 {
+    if(k > a.size())
+        return {};
     vector<int>ans;
     map<int,int>temp;
     for(auto i:a)
