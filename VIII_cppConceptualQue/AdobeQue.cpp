@@ -20,7 +20,8 @@ vector<int> maxOccuranceNum(vector<int>a,int k)
 
      for(auto i:temp)
     {
-        pq.push(make_pair(i.second,i.first));     
+        pq.push(make_pair(i.second,i.first));
+        // pq.push({i.second,i.first});    
     }
     while(k--)
     {
