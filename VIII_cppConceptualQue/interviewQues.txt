@@ -1,4 +1,6 @@
-explicit keyword?  => Explicit Keyword in C++ is used to mark constructors to not implicitly convert types in C++. It is optional for constructors that take exactly one argument and works on constructors(with single argument) since those are the only constructors that can be used in type casting.
+explicit keyword?  => Explicit Keyword in C++ is used to mark constructors to not implicitly convert types in C++. 
+	It is optional for constructors that take exactly one argument and works on constructors(with single argument) 
+	since those are the only constructors that can be used in type casting.
 design pattern
 can inline as a static? --> Yes
 can inline as a const? --> Yes
@@ -338,6 +340,8 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 202. steps of compilation? what is intermediator file after compilation?
 203. smart pointer cyclic ?
 204. memset & memcpy
+	memcpy(str2, str1, 50); 
+	memset(str, '*', 50);   
 205. how to delete element  from array, dynamic array ? vector
 206. thread t1,t2 -> show in t1->A, t2->B, t1->C, t2->D?
 207. why we need void pointer?
@@ -418,8 +422,26 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 	Abstract classes can contain abstract functions whose body is provided by them whereas in interfaces no body is provided for any function,they are to be implemented by the class extending the interface
 	If a class contains an abstract function it must be a abstract class.
 
-251.
-252.
+251. Input: nums = [1,1,1,2,2,3,3,3,3,3,3], k = 2
+	return vector of  highFreq k Number.
+	ans: Output: [1,2]  ADOBE
+
+252. find the linklist is palindrome or not?Adobe
+253. find the ireland in givem matrix
+			Input: grid = [
+		["1","1","0","0","0"],
+		["1","1","0","0","0"],
+		["0","0","1","0","0"],
+		["0","0","0","1","1"]
+		]
+		irelande index -
+			00, 01,10,11
+			22
+			33,34
+
+
+		ans : 3;
+254. construct the tree from the Inorder and preoder list?Adobe
 
 
 //meta_block_t is a local structure.

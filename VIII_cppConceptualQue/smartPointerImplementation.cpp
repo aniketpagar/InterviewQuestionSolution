@@ -33,8 +33,9 @@ class sp
     T*   pData;//generic pointer to be store
 
     public:
-    sp(T* val): pData(val)
+    sp(T* val) 
     {
+        pData=(val);
     }
 
     ~sp()
