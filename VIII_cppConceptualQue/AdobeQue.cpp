@@ -30,6 +30,21 @@ vector<int> maxOccuranceNum(vector<int>a,int k)
         ans.push_back(pq.top().second);
         pq.pop();
     }
+//another way to find the max occcurance
+    // map<int,int,greater<int>>temp1;
+    // for(map<int,int>::iterator it= temp.begin();it != temp.end();it++)
+    // {
+    //    temp1[it->second]=it->first;
+    //    cout<<" "<<it->second<<" : "<<it->first<<endl;
+    // }
+
+    // for(map<int,int>::iterator it= temp1.begin();it != temp1.end();it++)
+    // {
+    //     if(k==0)
+    //         break;
+    //         k--;
+    //     ans.push_back(it->second);
+    // }
 
     return ans;
 }

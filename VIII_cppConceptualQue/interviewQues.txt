@@ -297,6 +297,7 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 176. what is NAT?
 177. how to check configuration?
 178. how to use sed?
+	 to replace abc with def--> sed 'y/abc/def/' exm.txt  
 179. febonasis series?
 180. about NEF?
 181. what is a search complexity of tree? --> o(log(n))
@@ -365,6 +366,7 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 223. what is inner class, how to create object of inner class?
 224. what is impact of thread on cpu utilization?, if our monolithik is having 20% cpu utilization, should we go to multithread architecture?
 225. number of threads are depend on what? what is the formula?
+     number of core in a system
 226. if server is connected to 5 client, then how many socket do server had? -> 6 ( 5 +1(listen mode))
 227. what is interface class without inheritance? can we do function overiding in normal or interface class?
 228. is socket is a physical connection?
@@ -398,6 +400,8 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 	Example : Java thread, POSIX threads.					Example : Window Solaris.
 
 233. what is rest server, how http server create the thread?
+		HTTP is a contract, a communication protocol and REST is a concept, 
+		an architectural style which may use HTTP, FTP or other communication protocols but is widely used with HTTP.
 234. 5G procejure?
 235. how you create thread in your application?
 236 diff between extern and global variable?
@@ -407,7 +411,7 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 240. Print all IPs based on IP and mask C++?-> parallel wireless que
 241. can we define extern in one file and use in another file
 242. if static variable is declare in the .h file & if we include that header file in another .cpp file
-   		will it be a same memory?
+   		will it be a same memory? 
 243. what is call back function?
 244. find the min & max of array using minimum comparison? ->Synopsis
 245. difference between inline function and macro? --> Synopsis
@@ -425,8 +429,10 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 251. Input: nums = [1,1,1,2,2,3,3,3,3,3,3], k = 2
 	return vector of  highFreq k Number.
 	ans: Output: [1,2]  ADOBE
+	check the code present in cpp_conceptual folder
 
-252. find the linklist is palindrome or not?Adobe
+
+252. find the linklist is palindrome or not? Adobe
 253. find the ireland in givem matrix
 			Input: grid = [
 		["1","1","0","0","0"],
@@ -441,7 +447,11 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 
 
 		ans : 3;
-254. construct the tree from the Inorder and preoder list?Adobe
+254. construct the tree from the Inorder and preoder list? Adobe
+
+255. os scheduler tyep & IPC types ? NVDIA
+256. user level thread vs kernel level thread? NVDIA
+257. 
 
 
 //meta_block_t is a local structure.
