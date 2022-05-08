@@ -51,7 +51,7 @@ int lengthOfLongestValidParanthesis(string s, int &start, int &end)
             char ch = s[i];
             if( ch == '(')
                 st.push(i);
-            else  if( ch ==')' && !st.empty() && s[st.top()] == '(' )
+            else  if(!st.empty() && s[st.top()] == '(')
                         st.pop();
             else
                 st.push(i);
