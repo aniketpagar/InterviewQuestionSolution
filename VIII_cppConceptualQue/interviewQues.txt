@@ -1,7 +1,7 @@
 explicit keyword?  => Explicit Keyword in C++ is used to mark constructors to not implicitly convert types in C++. 
 	It is optional for constructors that take exactly one argument and works on constructors(with single argument) 
 	since those are the only constructors that can be used in type casting.
-design pattern
+design pattern--> singletone class, virtual class
 can inline as a static? --> Yes
 can inline as a const? --> Yes
 can static function as const?  --> Yes
@@ -16,9 +16,12 @@ some of the questions on the copy constructor?
     when pointer is deleted;
 	wild pointer = only pointer define, not declare, eg. int *p;
 2. what is difference between macro and inline functions and constant ?	
-	const is a keyword having scope , by using #define we can also replace name but using const we cant replace name.
+   inline having scope, we can call inline function using pointer, inline invoke at compilation stage,
+   macro is having scope in all the file, micro should define at the start of function, macro invoke at interpretation stage.
+
 3. diff const vs #define - > const is better bcz its having scope; #define is prepreocessor directive, where const is checked at compile  time, 
 	pointer can assign to const variable.
+	const is a keyword having scope , by using #define we can also replace name but using const we cant replace name.
 
 Four Steps of Compilation: preprocessing, compiling, assembly, linking.
 	
@@ -319,7 +322,7 @@ why we need #ifndef and #endif  in header file-> when we include file in multipl
 190. signalling between all node for SCEF and NEF?, CER and CEA ?
 191. monolithic vs microservice?
 192. type casting types and code, when to use when?
-193. three vector having sorted int num, find out the lowest number which is present in all three vector?
+193. three vector having sorted int num, find 	 the lowest number which is present in all three vector?
 194.    	 A
 	       B   c
 

@@ -41,13 +41,13 @@ bool isValidIpv4(string a)
         }
     }
     //check the last integer, that has stored in temp;
-     int i = stoi(temp);
-     //cout<<i<<endl;
-     if(i >255)
-        return false;
+    int i = stoi(temp);
+    //cout<<i<<endl;
+    if(i >255)
+       return false;
     count++;
     if(count != 4 ||ipInt[0]==0)
-            return false;
+        return false;
     return true;
 }
 int main()
