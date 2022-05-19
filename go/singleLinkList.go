@@ -10,11 +10,10 @@ type node struct {
 //insert the element in back
 func insertToBack(temp *node, data int) {
 	temp1 := &node{data: data, next: nil} // create new node & append it to last
-	tr := temp
-	for tr.next != nil {
-		tr = tr.next
+	for temp.next != nil {
+		temp = temp.next
 	}
-	tr.next = temp1
+	temp.next = temp1
 }
 
 //insert the element in front
