@@ -6,10 +6,10 @@ type stack struct {
 	data []int
 }
 
-var stackSize int = 5
+var stackSize int = 4
 
 func (s *stack) push(data int) {
-	if len(s.data) >= 4 {
+	if len(s.data) >= stackSize {
 		fmt.Println(" stack overflow")
 		return
 	}

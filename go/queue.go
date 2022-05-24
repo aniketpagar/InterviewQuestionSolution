@@ -6,10 +6,10 @@ type queue struct {
 	data []int
 }
 
-var stackSize int = 5
+var queueSize int = 4
 
 func (s *queue) enqueue(data int) {
-	if len(s.data) >= 4 {
+	if len(s.data) >= queueSize {
 		fmt.Println(" queue overflow")
 		return
 	}
