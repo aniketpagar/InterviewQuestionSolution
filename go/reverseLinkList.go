@@ -1,52 +1,61 @@
 package main
+
 import "fmt"
 
-type node struct{
-	data int
+var head *node
+
+type node struct {
 	next *node
+	data int
 }
-func insert(temp *node, data1 int){
-	for temp.next != nil{
-		temp=temp.next
-	}
-	temp.next = &node{data:data1,next:nil}
-}
-func display(temp*node){
-	for temp!=nil{
-		fmt.Print(" ",temp.data)
-		temp= temp.next
-	}
-}
-func reverseList(temp *node)*node{
 
-	var prev *node = nil
-	curr := temp
-	var next *node = curr.next
+func insert(data int) {
+	temp := head
+	for temp.next != nil {
+		temp = temp.next
+	}
+	// temp.next = &node{data:data,next:nil}
+	temp.next = new(node)
+	temp = temp.next
+	temp.data = data
+	temp.next = nil
+}
 
-	for next !=nil{
+func display() {
+	temp := head
+	for temp != nil {
+		fmt.Print(temp.data, " ")
+		temp = temp.next
+	}
+}
+func reverseLinkList() {
+	curr := head
+	var prev *node
+	next := head.next
+
+	for next != nil {
 		curr.next = prev
 		prev = curr
-		curr= next
-		next = curr.next;
+		curr = next
+		next = next.next
 	}
 
-	curr.next=prev;
-	return curr
+	head = curr
+	head.next = prev
 }
-func main(){
-
-	head:=&node{data:1,next:nil}
-	insert(head,2)
-	insert(head,3)
-	insert(head,4)
-	insert(head,5)
-	fmt.Print(" LinkList : ")
-	display(head)
-
-	head = reverseList(head)
-	fmt.Println()
-
-	fmt.Print(" reverse LinkList : ")
-	display(head)
+func main() {
+	head = new(node)
+	head.data = 1
+	head.next = nil
+	insert(2)
+	insert(3)
+	insert(4)
+	insert(5)
+	insert(6)
+	fmt.Print("list : ")
+	display()
+	reverseLinkList()
+	fmt.Print("\nreverse list : ")
+	display()
 
 }
