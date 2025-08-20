@@ -1,0 +1,49 @@
+Interview Questions:
+
+1. Issues you faced in adopting golang (from previous languages)
+2. What issues in concurrency did you face in your golang project
+3. How did you expose your metrics in golang
+4. How did you measure go’s concurreny in golang
+5. Use of init() function in go.. when and why to use
+6. What if any error happens in init() or constructor() function.. how to identify and will main function execute if any error in init() or constructor function
+7. order of execution, will init() run first or constructor() or global variables ?
+8. if we initialized db in init() and if that initialization fails, what happens to db calls in main function
+9. who starts main() go-routine
+10. are main() go-routine and GC() started by go-runtime
+11. can GC() starve main go-routine indefinitely ? - Yes, if GC() is continuously triggered, main go-routine is starved
+12. Does initializing or declaring variable guarantee that memory is allocated for that variable
+13. where are variables and objects stored in any language - answer is to know if function stack, heap, memory management concepts are known
+14. Suppose you have a struct with different datatypes, does ordering of the datatype matter to struct ?
+Yes- dynamic arrays/dynamic objects need to be placed at the growing end of the memory and constant or primitive types can be placed in between
+15. Suppose I want to make a field optional in struct , how to do this
+16. Slices vs Arrays, when to use what and what is the differences
+17. Maps in go, how they work and what type of map is this ..
+18. what happens when map's hash bucket is full.. will it rehash or how will it distribute the has values
+19. why use sync package when you have mutux and maps .. when to use what
+20. different mechanism to achieve synchronization between goroutines -> channels, waitgroups, context, pass by reference , mutex, sync packages
+21. exceptions vs errors
+22. What all data have you cached in your project.. what was the latency reduction due to caching
+23. Process vs thread
+24. Challenges faced in project.. how did you find the problem, then how did you fix it.
+What metrics did you simplify
+25. Design IRCTC kind of application
+26. Pass by value vs pass by reference
+27. Pointers vs references
+28. Design REST API to fetch Employees from 2 lakh employees.. employee count can grow
+29. Can we make go-routine to run in parallel
+30. What all datatypes you have used in go and how and why did you choose those datatypes
+31. Kafka partition/replica set.. what was the config used in your project
+32. How many kafka topics did you have
+33. How many consumer groups did you have
+34. Did you face any issues with kafka
+35. Comparision with java and golang.. why choose one over another
+36. JWT Tokens how they work
+37. Design and code a parking manager kind of application  
+38. Pub Sub pattern in golang
+39. Pub Sub varientes with multiple published subscribers
+40. How did you host your angular applicatin… in general how to host any application
+41. When to use RDBMS and when to go for MYSQL. Which did you use in your application and why
+42. How REST controller works
+43. What happens if go-routine exists without unlocking
+44. Security issues faced by you in your project
+45. Brief overview of how CI/CD pipeline works
